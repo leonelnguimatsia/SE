@@ -1,0 +1,25 @@
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.directory
+
+### IntelliJ IDEA ###
+out/
+.idea
+*.iws
+# *.iml  # nur in gitignore aufnehmen, falls es sich um ein Maven-Projekt handelt.
+# Sonst nicht.
+*.ipr
+
+
+### Maven ###
+*/target/*
+/target
